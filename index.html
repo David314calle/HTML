@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table, th, td {
+            border: 2px solid black
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+</head>
+<body>
+    <table style="width: 450px;">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Cafe</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Milo</td>
+                <td>2500$</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Aguapanela con queso</td>
+                <td>8000$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td></td>
+            <td>Total= 10500$</td>
+        </tfoot>
+    </table>
+    <!--lista no ordenada-->
+    <ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+    </ul>
+    <!--lista ordenada-->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-roman;">sub Elemento 1</li>
+                <li style="list-style-type:lower-alpha;">sub Elemento 2</li>
+                <li style="list-style-type:lower-alpha;">sub Elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+        <p>Parrafo numero 1.</p>
+        <p>Parrafo numero 2.</p>
+        <hr>
+        <!--Este texto es un comentario
+        no va aparecer-->
+    <h2>Otro titulo</h2>
+        <p>
+            Mas texto, aprendiendo html con <span style="color: darkorchid;">Hola mundo muy interesante</span> <br> <br> <br> estoy contento aprtendiendo <br>
+            <a target="_blank" href="https://www.google.com">Ir a google</a> <br>
+            <img src="img/pikachu.png" height="400" alt="Imagen de Pikachu">
+            <br>
+            <form action="/formulario" method="post">
+                <label for="nombre">Name</label>
+                <input value="Nombre por defecto" id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre"> <br>
+                <label for="apellido">Apellido</label>
+                <input value="Apellidos por defecto" id="apellido" type="text" name="apellido" placeholder="Ingrese su apellido">
+                <br>
+                <label for="comentario">Comentario</label>
+                <textarea name="comentario" id="comentario" cols="40" rows="10" placeholder="Ingrese su comentario aqui">Comentario por defecto</textarea>
+                <br>
+                <button type="button">tipo boton</button>
+                <button type="reset">tipo reset</button>
+                <button type="submit">tipo submit</button>
+            </form>
+        </p>
+</body>
+</html>
